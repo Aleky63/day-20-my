@@ -84,6 +84,7 @@ h6 {
 :root {
   --color-white: #ffffff;
   --color-hover: #28fb33;
+  --color-btn: #ffe500;
 }
 .list-reset {
   margin: 0;
@@ -93,7 +94,6 @@ h6 {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 15px;
 }
 
 .header {
@@ -105,6 +105,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 5px 15px;
 }
 
 .nav__list {
@@ -158,17 +159,22 @@ h6 {
 
 .btn {
   padding: 11px 4px;
-  background-color: #ffe500;
+  background-color: var(--color-btn);
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
   line-height: 24.2px;
   float: left;
 }
+
 .btn:last-child {
   padding: 11px;
   background-color: var(--color-white);
 }
-.nav__btn:hover button {
-  background-color: var(--color-hover);
+.btn:last-child:hover {
+  background-color: var(--color-btn);
+}
+
+.nav__btn:has(.btn:last-child:hover) .btn:first-child {
+  background-color: var(--color-white);
 }
