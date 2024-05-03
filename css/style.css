@@ -165,17 +165,18 @@ h6 {
   line-height: 24.2px;
   text-align: center;
   float: left;
+  transition: background-color 0.4s ease-in-out;
 }
 
-.btn:last-child {
+.header__btn-in {
   padding: 11px;
   background-color: var(--color-white);
 }
-.btn:last-child:hover {
+.header__btn-in:hover {
   background-color: var(--color-btn);
 }
 
-.nav__btn:has(.btn:last-child:hover) .btn:first-child {
+.nav__btn:has(.header__btn-in:hover) .header__btn {
   background-color: var(--color-white);
 }
 
@@ -185,25 +186,32 @@ h6 {
   /* background-position: bottom left; */
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
-.hero__inner {
-  padding: 20% 0;
-  display: flex;
-
-  justify-content: space-around;
-}
 .hero__btn {
-  padding: 60px 5px;
-  width: 32%;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  padding: 60px 8px;
+  width: 33%;
+
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
   border-radius: 50px;
-  text-align: center;
   background-color: #3d3a3a;
+  opacity: 0.82;
+  color: #dfcba7;
 }
 .hero__btn-add {
-  padding: 0;
-  background-color: #e02e2e;
+  top: 30%;
+  left: 60%;
+  padding: 50px 40px;
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.41px;
+
+  background-color: #275657;
 }
