@@ -93,17 +93,21 @@ h6 {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 50px 135px;
 }
 
 .header {
   margin: 0;
   background-color: #008169;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
 }
 
 .header__container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 5px 15px;
 }
 
@@ -195,7 +199,6 @@ h6 {
   left: 10%;
   padding: 60px 8px;
   width: 33%;
-
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
@@ -208,10 +211,83 @@ h6 {
   top: 30%;
   left: 60%;
   padding: 50px 40px;
-
   font-size: 40px;
   font-weight: 700;
   line-height: 48.41px;
-
   background-color: #275657;
+}
+.tour {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background-color: #008169;
+}
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  color: #dfcba7;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* .tour__container {
+} */
+
+.tour__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tour-card {
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.27px;
+  width: 301px;
+  height: 358px;
+  background-image: url(../img/pic1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  position: relative;
+}
+.tour-card:nth-child(2) {
+  background-image: url(../img/pic2.png);
+}
+.tour-card:nth-child(3) {
+  background-image: url(../img/pic3.png);
+}
+.tour-card__info svg {
+  position: absolute;
+  bottom: 0;
+}
+.tour-card__title {
+  width: 33%;
+  color: #c89c00;
+  position: absolute;
+  left: 4%;
+  bottom: 12%;
+  z-index: 5;
+}
+.tour-card__data {
+  color: #275657;
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+
+  z-index: 8;
+}
+
+.tour-card__badge:after {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  content: attr(data-badge);
+  right: -10%;
+  top: -10%;
+  font-size: 24px;
+  padding: 22px;
+  border-radius: 50%;
+  color: #ee0c0c;
+  background-color: rgba(210, 245, 15, 0.684);
 }
