@@ -122,6 +122,7 @@ h6 {
   color: var(--color-white);
   text-decoration: underline;
   text-underline-offset: 4px;
+  transition: color 0.4s ease-in-out;
 }
 .nav__link:hover {
   color: var(--color-hover);
@@ -187,7 +188,6 @@ h6 {
 .hero {
   height: 667px;
   background-image: url(../img/hero.jpg);
-  /* background-position: bottom left; */
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -230,9 +230,6 @@ h6 {
   margin-bottom: 50px;
 }
 
-/* .tour__container {
-} */
-
 .tour__list {
   display: flex;
   justify-content: space-around;
@@ -248,7 +245,6 @@ h6 {
   background-image: url(../img/pic1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center; */
   position: relative;
 }
 .tour-card:nth-child(2) {
@@ -274,7 +270,6 @@ h6 {
   position: absolute;
   left: 50%;
   bottom: 2%;
-
   z-index: 8;
 }
 
@@ -290,4 +285,5 @@ h6 {
   border-radius: 50%;
   color: #ee0c0c;
   background-color: rgba(210, 245, 15, 0.684);
+  z-index: 20;
 }
