@@ -43,17 +43,20 @@
     <main>
       <section class="hero">
         <div class="container hero__container">
-          <!-- <h1>DDDDDDDDDDDD</h1> -->
-
-          <button class="btn hero__btn">АВТОРСКИЕ ТУРЫ В КАРЕЛИЮ</button>
-          <button class="btn hero__btn hero__btn-add">ЗАБРОНИРОВАТЬ</button>
+          <div class="hero__left">
+            <h1 class="title">АВТОРСКИЕ ТУРЫ В КАРЕЛИЮ</h1>
+          </div>
+          <div class="">
+            <button class="btn hero__btn">ЗАБРОНИРОВАТЬ</button>
+          </div>
         </div>
       </section>
       <section class="tour">
         <div class="container tour__container">
-          <h1 class="title tour__title">ТУРЫ</h1>
+          <h2 class="title tour__title">ТУРЫ</h2>
           <ul class="list-reset tour__list">
             <li class="tour-card">
+              <img class="tour-card__img" src="img/pic1.png" alt="pic" />
               <div class="tour-card__info">
                 <h3 class="tour-card__title">FRENDLY-TOUR</h3>
                 <p class="tour-card__data">01.05-10.05</p>
@@ -71,7 +74,8 @@
                 </svg>
               </div>
             </li>
-            <li class="tour-card tour-card__badge" data-badge="%">
+            <li class="tour-card tour-card__badge">
+              <img class="tour-card__img" src="img/pic2.png" alt="pic" />
               <div class="tour-card__info">
                 <h3 class="tour-card__title">ОСЕНЬ</h3>
                 <p class="tour-card__data">01.09-10.09</p>
@@ -90,6 +94,7 @@
               </div>
             </li>
             <li class="tour-card">
+              <img class="tour-card__img" src="img/pic3.png" alt="pic" />
               <div class="tour-card__info">
                 <h3 class="tour-card__title">ЛЕТО</h3>
                 <p class="tour-card__data">01.06-10.06</p>
@@ -110,6 +115,68 @@
           </ul>
         </div>
       </section>
+      <section class="contacts">
+        <div class="container contacts__container">
+          <h2 class="title tour__title">КОНТАКТЫ</h2>
+          <div class="contacts__wrapper">
+            <div class="contacts__caps">
+              <img src="img/map.jpg" alt="caps" />
+            </div>
+            <div class="contacts__info">
+              <address>
+                Телефон
+                <a href="tel:+79180000000" class="phone"> 999-000-00</a>
+              </address>
+              <address>
+                &nbsp;&nbsp;Почта
+                <a href="mailto:abc@mail.ru" class="email"
+                  >&nbsp;&nbsp;abc@mail.ru</a
+                >
+              </address>
+              <address>
+                &nbsp;&nbsp;Адрес
+                <a href="#" class="street"
+                  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Улица</a
+                >
+              </address>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="foto">
+        <div class="container foto__container">
+          <h2 class="title tour__title">ФОТОГАЛЕРЕЯ</h2>
+          <div class="foto__wrapper">
+            <img src="img/piq5.jpg" alt="foto" />
+            <img src="img/piq7.jpg" alt="foto" />
+            <img src="img/piq6.jpg" alt="foto" />
+            <img src="img/piq4.jpg" alt="foto" />
+            <img src="img/piq3.jpg" alt="foto" />
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <a href="#" class="logo">
+          <img class="logo__img" src="img/logo.svg" alt="лого" />
+        </a>
+        <ul class="footer__ul">
+          <li>
+            <a href="">Вакансии</a>
+            <a href="">Контакты</a>
+          </li>
+          <li>
+            <a href="">Туры</a>
+            <a href="">Другие проекты</a>
+          </li>
+          <li>
+            <a href="">Лицензия></a>
+            <a href="">Наши гиды></a>
+          </li>
+        </ul>
+        <button class="btn header__btn">SING UP</button>
+      </div>
+    </footer>
   </body>
 </html>
