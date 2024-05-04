@@ -108,7 +108,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 15px;
+  padding: 5px 115px;
 }
 
 .nav__list {
@@ -344,13 +344,11 @@ address a {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 46px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
   overflow: hidden;
 }
-.foto__wrapper img {
-  object-fit: contain;
-}
+
 .footer {
   margin: 0;
   background-color: #2b4949;
@@ -360,7 +358,17 @@ address a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 15px;
+  padding: 5px 115px 50px;
+}
+.footer__ul {
+  display: flex;
+  gap: 60px;
+}
+.footer__ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
 }
 .footer__ul a {
   font-size: 16px;
@@ -368,11 +376,4 @@ address a {
   line-height: 19.5px;
   text-align: left;
   color: var(--color-white);
-}
-@media (max-width: 1284px) {
-  .foto__wrapper {
-    grid-template-columns: 1fr 1fr 1fr;
-
-    gap: 46px;
-  }
 }
