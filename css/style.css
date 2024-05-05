@@ -358,7 +358,7 @@ address a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 100px 50px;
+  padding: 25px 100px;
 }
 .footer__ul {
   display: flex;
