@@ -314,14 +314,14 @@ h6 {
 
 .contacts__wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
 }
-.contacts__caps {
-  width: 55%;
-  overflow: scroll;
-}
-.contacts__caps img {
-  max-width: 557px;
+
+iframe {
+  width: 50vw;
 }
 
 .contacts__info {

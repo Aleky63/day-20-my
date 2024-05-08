@@ -50,19 +50,6 @@
     padding: 0 10px 10px 0;
   }
 
-  .contacts__wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
-  .contacts__caps {
-    width: 55%;
-    overflow: scroll;
-  }
-
-  .contacts__info {
-    font-size: 24px;
-  }
-
   address a {
     padding: 0 5px;
   }
@@ -122,17 +109,6 @@
     padding: 10px 25px;
   }
 
-  .contacts__wrapper {
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 30px;
-  }
-
-  .contacts__caps {
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-  }
   .tour__list {
     flex-direction: column;
     align-items: center;
