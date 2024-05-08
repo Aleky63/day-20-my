@@ -149,6 +149,11 @@
   .tour__title {
     margin-bottom: 25px;
   }
+  .contacts__info {
+    padding: 25px 5px;
+    font-size: 24px;
+    line-height: 28px;
+  }
   .logo:last-child {
     display: none;
   }
