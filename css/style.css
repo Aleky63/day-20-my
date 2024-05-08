@@ -321,7 +321,7 @@ h6 {
 }
 
 iframe {
-  width: 50vw;
+  max-width: 45vw;
 }
 
 .contacts__info {
