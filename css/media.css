@@ -49,6 +49,9 @@
   .tour-card__data {
     padding: 0 10px 10px 0;
   }
+  iframe {
+    max-width: 65vw;
+  }
 
   address a {
     padding: 0 5px;
@@ -103,10 +106,12 @@
   .contacts,
   .foto {
     padding-top: 10px;
-    padding-bottom: 20px;
+    margin-bottom: 30px;
   }
+
+  .contacts__container,
   .tour__container {
-    padding: 10px 25px;
+    padding: 0 25px;
   }
 
   .tour__list {
@@ -116,6 +121,10 @@
   }
   .tour-card__info {
     bottom: -5%;
+  }
+
+  iframe {
+    max-width: 72vw;
   }
   .footer__container {
     padding: 5px 30px;
@@ -149,6 +158,7 @@
   .tour__title {
     margin-bottom: 25px;
   }
+
   .contacts__info {
     padding: 25px 5px;
     font-size: 24px;
