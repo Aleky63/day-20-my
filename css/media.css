@@ -56,7 +56,9 @@
   address a {
     padding: 0 5px;
   }
-
+  .foto__wrapper {
+    margin-bottom: 40px;
+  }
   .footer__container {
     padding: 25px 40px;
   }
@@ -103,14 +105,14 @@
     font-size: 24px;
   }
   .tour,
-  .contacts,
-  .foto {
-    padding-top: 10px;
+  .contacts {
+    padding-top: 30px;
     margin-bottom: 30px;
   }
 
   .contacts__container,
-  .tour__container {
+  .tour__container,
+  .footer__container {
     padding: 0 25px;
   }
 
@@ -149,12 +151,7 @@
   .hero__btn {
     font-size: 20px;
   }
-  .tour,
-  .contacts,
-  .foto {
-    padding-top: 10px;
-    padding-bottom: 50px;
-  }
+
   .tour__title {
     margin-bottom: 25px;
   }
