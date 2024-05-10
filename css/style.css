@@ -345,10 +345,7 @@ address a {
   color: var(--color-white);
 }
 .foto {
-  /* padding-top: 50px; */
-}
-.foto__container {
-  padding: 50px 0;
+  padding-top: 50px;
 }
 
 .foto__wrapper {
